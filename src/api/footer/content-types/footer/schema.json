@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logoText": {
+      "type": "string"
+    },
+    "HelpfulLink": {
+      "type": "dynamiczone",
+      "components": [
+        "restaurantinfo.helpful-link",
+        "restaurantinfo.social-inks"
+      ]
+    },
+    "address": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneno": {
+      "type": "string"
+    },
+    "alternativePhone": {
+      "type": "string"
+    },
+    "bottomLine": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wishlists",
+  "info": {
+    "singularName": "wishlist",
+    "pluralName": "wishlists",
+    "displayName": "wishlist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Prodact": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "Count": {
+      "type": "integer"
+    }
+  }
+}

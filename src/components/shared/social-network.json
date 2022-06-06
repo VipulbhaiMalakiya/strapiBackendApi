@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_social_networks",
+  "info": {
+    "displayName": "SocialNetwork",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "muted"
+      ]
+    }
+  }
+}

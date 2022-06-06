@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Conutry": {
+      "type": "string"
+    },
+    "Pincode": {
+      "type": "string"
+    },
+    "PaymentType": {
+      "type": "string"
+    },
+    "billingAddress": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "shippingAddress": {
+      "type": "string"
+    },
+    "orderDetail": {
+      "type": "json"
+    },
+    "orderStatus": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

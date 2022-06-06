@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pricing_pricing_cards",
+  "info": {
+    "displayName": "PricingCards",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "perks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.pricing"
+    }
+  }
+}

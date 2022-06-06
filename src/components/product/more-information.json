@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_more_informations",
+  "info": {
+    "displayName": "MoreInformation",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

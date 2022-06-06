@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurants",
+  "info": {
+    "singularName": "restaurant",
+    "pluralName": "restaurants",
+    "displayName": "restaurant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "openningHours": {
+      "displayName": "Openning Hours",
+      "type": "component",
+      "repeatable": false,
+      "component": "restaurantinfo.openning-hours"
+    },
+    "avgPrice": {
+      "type": "integer"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "restaurant"
+    },
+    "OffPrice": {
+      "type": "integer"
+    },
+    "mainImage": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WarrantyServiceType": {
+      "type": "text"
+    },
+    "category_1s": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category1.category1",
+      "inversedBy": "restaurants"
+    }
+  }
+}

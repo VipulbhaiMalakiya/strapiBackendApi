@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cds",
+  "info": {
+    "singularName": "cd",
+    "pluralName": "cds",
+    "displayName": "cd",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}

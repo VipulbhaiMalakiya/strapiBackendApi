@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "backspace"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "socialNetworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-network"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

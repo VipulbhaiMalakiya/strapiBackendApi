@@ -1,0 +1,42 @@
+<CATALOG>
+	<CD>
+		<TITLE>Empire Burlesque 1</TITLE>
+		<ARTIST>Vipul Malakiya</ARTIST>
+		<COUNTRY>India</COUNTRY>
+		<COMPANY>Team Computer</COMPANY>
+		<PRICE>100</PRICE>
+		<YEAR>2022</YEAR>
+	</CD>
+	<CD>
+		<TITLE>Empire Burlesque 2</TITLE>
+		<ARTIST>Vipul Malakiya</ARTIST>
+		<COUNTRY>India</COUNTRY>
+		<COMPANY>Team Computer</COMPANY>
+		<PRICE>100</PRICE>
+		<YEAR>2022</YEAR>
+	</CD>
+	<CD>
+		<TITLE>Empire Burlesque 3</TITLE>
+		<ARTIST>Vipul Malakiya</ARTIST>
+		<COUNTRY>India</COUNTRY>
+		<COMPANY>Team Computer</COMPANY>
+		<PRICE>100</PRICE>
+		<YEAR>2022</YEAR>
+	</CD>
+	<CD>
+		<TITLE>Empire Burlesque 4</TITLE>
+		<ARTIST>Vipul Malakiya</ARTIST>
+		<COUNTRY>India</COUNTRY>
+		<COMPANY>Team Computer</COMPANY>
+		<PRICE>100</PRICE>
+		<YEAR>2022</YEAR>
+	</CD>
+		<CD>
+		<TITLE>Empire Burlesque 5</TITLE>
+		<ARTIST>Vipul Malakiya</ARTIST>
+		<COUNTRY>India</COUNTRY>
+		<COMPANY>Team Computer</COMPANY>
+		<PRICE>100</PRICE>
+		<YEAR>2022</YEAR>
+	</CD>
+</CATALOG>

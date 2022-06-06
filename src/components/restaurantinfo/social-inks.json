@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_restaurantinfo_social_inks",
+  "info": {
+    "displayName": "socialicone",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icone": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

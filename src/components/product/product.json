@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_product_products",
+  "info": {
+    "displayName": "RichContent",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

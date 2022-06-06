@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_restaurantinfo_helpful_links",
+  "info": {
+    "displayName": "helpfulLink",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    }
+  }
+}

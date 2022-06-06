@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "Perks",
+    "icon": "baby",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "included": {
+      "type": "boolean"
+    }
+  }
+}

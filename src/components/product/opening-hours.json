@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_opening_hours",
+  "info": {
+    "displayName": "OpeningHours",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "day_interval": {
+      "type": "string"
+    },
+    "opening_hour": {
+      "type": "string"
+    },
+    "closing_hour": {
+      "type": "string"
+    }
+  }
+}
